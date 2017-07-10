@@ -1,0 +1,15 @@
+{
+  "name": "congenial-pancake",
+  "version": "0.2.12",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "https-proxy-agent": "^1.0.0",
+    "ws": "^1.1.4"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "scripts": {
+    "start": "node server.js -b 0.0.0.0"
+  }
+}
